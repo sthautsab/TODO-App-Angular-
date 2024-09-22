@@ -1,0 +1,51 @@
+.container{
+    align-items: center;
+}
+.inputTodo{
+    min-width:100vw;
+    margin:10px 0;
+    text-align:center;
+}
+
+#inputField{
+    width:100%;
+    padding:10px;
+    font-size: 16px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 4px;
+    background-color: #F3F3F3;
+    outline:none;   
+    appearance: none;
+	border: none;
+   
+
+}
+
+#inputField::placeholder{
+    color: gray;
+    z-index:1;
+}
+
+#todoSubmitBtn{
+    padding:8px;
+    margin-top:8px ;
+   text-align:center;
+   display:inline-block;
+}
+.todo{
+    display:flex;    
+}
+
+.todo .id{
+    flex: 1 1 50px;
+}
+
+.todo .content{
+    flex:1 1 100%;
+}
+
+
+
+.todo .completed{
+    text-decoration: line-through;
+}
